@@ -1,0 +1,189 @@
+*{ 
+	margin:0;
+	padding:0;
+}
+body{ 
+	background-color: #DEDEDE;
+	font-family: 微软雅黑，arial;
+	font-size: 14px;
+
+}
+a{ 
+	text-decoration: none;
+}
+
+header{ 
+	width: 100%;
+	height: 100px;
+	background-color: #333333;
+	
+}
+.logo{ 
+	width: 50px;
+	width: 50px;
+	padding: 25px 0 0 40px;
+}
+header img{ 
+	
+}
+
+nav{ 
+	float: right;
+	margin-top: -40px;
+}
+nav ul li{ 
+	float: left;
+	width: 100px;
+}
+nav ul li a{ 
+	color: #fff;
+	line-height: 30px;
+}
+h2{ 
+	padding: 10px 0 ;
+}
+h3{ 
+	padding:5px 0;
+	font-size: 16px;
+}
+
+#main .content{ 
+	background-color: #fff;
+	width: 90%;
+	margin:30px auto;
+	border: 1px solid #fff;
+	padding: 30px;
+	line-height: 30px;
+	-moz-box-shadow:3px 3px 3px;
+	-webkit-box-shadow:3px 3px 3px;
+	box-shadow:3px 3px 3px;
+	
+}
+#main #main_content{ 
+	margin-right:460px ;
+	margin-left: 2%;
+}
+#main #main_content .content .p1{　
+	display: block;
+	padding:5px 0;
+	font-size: 12px;
+	margin-left: -30px;
+}
+#main #main_content .content p{ 
+	text-indent: 32px;
+}
+#main .list li{ 
+	list-style-type: none;
+}
+#main #main_content .content .pic img{ 
+	width: 100px;
+	height: 100px;
+}
+#main #main_content .content figure{ 
+	border: 1px solid #000;
+	width: 120px;
+	height: 140px;
+	float: left;
+	margin: 20px 10px 10px 10px;
+
+}
+#main #main_content .content figcaption{ 
+	line-height: 30px;
+	text-align: center;
+}
+#main #main_content .content .pic{ 
+	padding-left: 40px;
+	text-align: center;
+	overflow: auto;
+}
+ol{ 
+	padding-left: 40px;
+}
+table{ 
+	width: 100%;
+	border-collapse: collapse;
+	
+} 
+th,td{ 
+	border: 1px solid #ccc;
+}
+table .head{ 
+	background-color: #333333;
+	color: #fff;
+	text-align: left;
+}
+table .foot{ 
+	background-color: #CCCCCC;
+}
+aside h2{ 
+	border-left: 4px solid #ccc;
+	padding-left: 10px;
+	font-size: 16px;
+}
+#main .aside{ 
+	width: 340px;
+	position: absolute;
+	top: 100px;
+	right: 20px;
+}
+
+form label{ 
+	display: inline-block;
+	width:35%;
+	text-align: right;
+	
+}
+form .form_li{ 
+	display: inline-block;
+}
+form .form_person{ 
+	vertical-align: top;
+	margin-top: 8px;
+}
+
+form input{ 
+	line-height: 30px;
+	margin-top: 10px;
+}
+form span{ 
+	padding-right: 10px;
+}
+form p{
+	color: #ccc;
+}
+
+.btn{ 
+	display: block;
+	width: 100%;
+	height: 40px;
+	background-color: blue;
+	border:none;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 20px;
+}
+.btn:hover{ 
+	background-color:  #1111AA;
+}
+footer{ 
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+}
+footer p{ 
+	color: #fff;
+	line-height: 100px;
+	text-align: center;
+}
+@media screen and (max-width: 720px){ 
+	.aside{ 
+		display: none;
+	}
+	#main #main_content{ 
+		width: auto;
+		margin-right: 20px;
+	}
+}
+
+
+
